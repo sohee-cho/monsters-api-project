@@ -1,0 +1,23 @@
+1. What built-in JavaScript method creates an HTML element on the DOM? Please explain what it does. What is its syntax? What are the parameters? What is its return value? Please provide code from your Monsters Search API app as an example of using this built-in method.
+
+-
+
+2. What built-in JavaScript method sets the value of an attribute on a specified element? Please explain what it does. What is its syntax? What are its parameters? What exceptions can it throw? Please provide code used in the Week 10 Homework README.md as an example of how it could be used dynamically instead of the approach used in the actual project code.
+
+3. What is the built-in method that allows you to add a child node to a parent node? Please explain what it does. What is its syntax? What are its parameters? What is its return value? Please provide code from your Monsters Search API app as an example of using this built-in method.
+
+4. What is the built-in method that creates text inside an Element Node? Please explain what it does. What is its syntax? What are its parameters? What is its return value? Please provide a code example from the Manipulating The DOM: Creating Elements, Setting Attributes, Appending Children slide deck.
+
+5. Provide a code example that uses the .createElement() method, the .createTextNode() method, and the .appendChild() method, altogether. Explain what is going on with the code.
+
+6. What properties do the same thing as the .createTextNode() method? And what is the difference between the two properties?
+
+7. When is .createTextNode() preferable over .innerHTML?
+
+8. Does order matter when appending child nodes/elements to their parent node/element? Why?
+
+9. What does the return statement do?
+
+10. What does the console.log(monsters) called right before the monsters.map() method, print out to the Chrome Developer Tools console? Please copy and paste it as your answer to this question.
+
+11. What does the console.log(monster) called inside the monsters.map() method, at the top, print out to Chrome Developer Tools console? Please copy and paste it as your answer to this question.s

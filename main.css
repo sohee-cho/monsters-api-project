@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: 'Oxygen', sans-serif;
+    background-image: url("images/galaxy.jpg");
+    background-repeat: no-repeat;
+   background-size: cover;
+    overflow-y: scroll;
+}
+
+.monsters-btn {
+    font-family: 'Oxygen';
+}
+
+  
+fieldset {
+    width: 55%;
+    margin: 1.5rem auto;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; }
+    
+fieldset input {
+    font-family: 'Oxygen', sans-serif;
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem; 
+    border-radius: 1rem;}
+  
+ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 1.3rem;
+    row-gap: 1.3rem;
+    margin: 3rem auto;
+    text-align: center;
+    width: 85%;
+    max-width: 1024px; }
+
+@media (max-width: 799px) {
+    ul {
+        display: block; } }
+    ul li {
+      border-left: 1px solid #ffffff;
+      border-top: 1px solid #ffffff;
+      border-right: 1px solid #ffffff;
+      border-radius: 1rem;
+      background: #73a1bb; }
+
+    ul li:nth-of-type(2), ul li:nth-of-type(4), ul li:nth-of-type(6), ul li:nth-of-type(8), ul li:nth-of-type(10) {
+        border-right: 1px solid #ffffff; }
+        
+    ul li:nth-of-type(10) {
+        border-bottom: 1px solid #ffffff; }
+
+    ul li div {
+        text-align: center;
+        margin-top: -2rem;
+        background: #2f5e85;
+        width: 100%;
+        border-bottom-left-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        color: #ffffff; }
+
+@media (min-width: 800px) {
+    ul li:nth-of-type(1), ul li:nth-of-type(2), ul li:nth-of-type(3), ul li:nth-of-type(4), ul li:nth-of-type(5), ul li:nth-of-type(6), ul li:nth-of-type(7), ul li:nth-of-type(8), ul li:nth-of-type(9) {
+        border-bottom: 1px solid #536878; } }
+  
+  .monsters-btn {
+    margin: 1.5rem auto 0;
+    text-align: center;
+    display: block;
+    padding: 5px;
+    width: 15%;
+    height: 2.5rem;
+    border-radius: 1rem;
+    font-size: 1rem;
+    cursor: pointer; }
+  
+  /* Footer styling based on Philip Walton's Sticky Footer used with CSS Flexbox. */
+  .site-footer {
+    margin: 0 auto;
+    padding-top: 100px;
+    text-align: center;
+    width: 100%;
+    font-size: 100%;
+    color: #16174b; }
+    @media (min-width: 411px) {
+      .site-footer {
+        font-size: 120%; } }
+    @media (min-width: 600px) {
+      .site-footer {
+        font-size: 150%; } }
+  
+  :root {
+    --space: 1.5em 0;
+    --space: 2em 0; }
+  
+  .Site {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; }
+  
+  .Site-content {
+    flex: 1 0 auto;
+    padding: var(--space) var(--space) 0;
+    width: 100%; }
+  
+  .Site-content:after {
+    content: "\00a0";
+    display: block;
+    margin-top: var(--space);
+    height: 0;
+    visibility: hidden; }
+  
